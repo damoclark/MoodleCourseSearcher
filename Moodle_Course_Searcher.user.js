@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Moodle Course Searcher
-// @namespace   http://damos.world
+// @namespace   https://damos.world
 // @description Search for any course site on any page from textbook in Moodle header
 // @include     https://moodle.cqu.edu.au/*
 // @include     https://moodle-vet.cqu.edu.au/*
