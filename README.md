@@ -1,11 +1,10 @@
 # Moodle Course Searcher #
 
-**Userscript to add a simple course search input box to the header in every Moodle
+**Userscript to add a simple course search input box to the header of every Moodle
 page**
 
 ![Moodle Course Searcher
-Screenshot](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Moodle
-Course Searcher Screenshot.png "Moodle Course Searcher Screenshot")
+Screenshot](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Moodle_Course_Searcher_Screenshot.png "Moodle Course Searcher Screenshot")
 
 The utility should work for any version of Moodle, but has only been tested on
 Moodle 2.7
@@ -49,22 +48,19 @@ Scripts](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master
 Next, click on Preferences for Moodle Course Searcher.
 
 ![Preferences for Moodle Course Searcher
-](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Greasemonkey
-Moodle Course Searcher.png "Preferences for Moodle Course Searcher")
+](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Greasemonkey_Moodle_Course_Searcher.png "Preferences for Moodle Course Searcher")
 
 Now you specify the address for your Moodle website.
 
 ![Specify your moodle website address
-](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Greasemonkey
-Included pages.png "Specify your moodle website address")
+](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Greasemonkey_Included_pages.png "Specify your moodle website address")
 
 Click "Add..." and enter in your Moodle website. Note you need to add an
 asterisk on the end as shown in the image below. This asterisk means run Moodle
 Course Search on any page of your Moodle website.
 
 ![Specify your moodle website address
-](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Specify
-Moodle Site.png "Specify your moodle website address")
+](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Specify_Moodle_Site.png "Specify your moodle website address")
 
 Now, you can search for any Moodle course site from any Moodle page.
 
