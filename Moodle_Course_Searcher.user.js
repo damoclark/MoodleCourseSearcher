@@ -11,11 +11,20 @@
 
 console.log('Running Moodle Course Search Header') ;
 
-//Here is the standard Moodle 2.7 Search form HTML from existing pages in Moodle
-var courseSearchHTML = '<div class="navbutton"> <form method="get" action="https://moodle.cqu.edu.au/course/search.php" id="coursesearchnavbar"><fieldset class="coursesearchbox invisiblefieldset"><label for="navsearchbox">Search courses: </label><input type="text" value="" name="search" size="20" id="navsearchbox"><input type="submit" value="Go"></fieldset></form></div>' ;
-
-//Stick it into the Moodle Header - Voila!!
-console.log('About to insert '+courseSearchHTML) ;
-document.querySelector("#page-header").insertAdjacentHTML("beforeend",courseSearchHTML) ;
-//Hack for CQU Moodle sites that have a banner image in the header 
-document.querySelector("img#custombanner").style.zIndex = "-1" ;
+try
+{
+	//Here is the standard Moodle 2.7 Search form HTML from existing pages in Moodle
+	var courseSearchHTML = '<div class="navbutton"> <form method="get" action="https://moodle.cqu.edu.au/course/search.php" id="coursesearchnavbar"><fieldset class="coursesearchbox invisiblefieldset"><label for="navsearchbox">Search courses: </label><input type="text" value="" name="search" size="20" id="navsearchbox"><input type="submit" value="Go"></fieldset></form></div>' ;
+	
+	//Stick it into the Moodle Header - Voila!!
+	console.log('About to insert '+courseSearchHTML) ;
+	document.querySelector("#page-header").insertAdjacentHTML("beforeend",courseSearchHTML) ;
+	//Hack for CQU Moodle sites that have a banner image in the header 
+	document.querySelector("img#custombanner").style.zIndex = "-1" ;
+}
+catch(err)
+{
+	console.log('Error: '+err) ;
+	console.log('On line: '+err.lineNumber) ;
+	console.log('Stack:'+err.stack) ;
+}
