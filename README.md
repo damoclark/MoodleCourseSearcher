@@ -22,7 +22,13 @@ Searcher](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/maste
 
 ### Chrome ###
 
-1. Just [install Moodle Course
+1. If you don't already have it, [install
+Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
+into your Chrome browser. Strictly speaking, this userscript should work without
+requiring Tampermonkey. However, recent security changes to Chrome mean this is
+just the easiest way to do it.
+
+1. Then, [install Moodle Course
 Searcher](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Moodle_Course_Searcher.user.js)
 and you are all set. It doesn't require any special security permissions and
 therefore can run as a native Chrome user script.
