@@ -29,12 +29,12 @@ therefore can run as a native Chrome user script.
 
 ## Usage ##
 
-### Firefox ###
-
 Moodle Course Searcher is already configured for use at
 [CQUniversity](https://www.cqu.edu.au). This means you can start using it right
 away. If, however you wish to use it on another Moodle site, you will need to
 follow the instructions below.
+
+### Firefox ###
 
 To specify your Moodle website address so Firefox knows when to run this script,
 press Ctrl-Shift-A to access the settings (Cmd-Shift-A for Mac)
