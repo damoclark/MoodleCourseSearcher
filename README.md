@@ -13,16 +13,16 @@ Moodle 2.7
 
 ### Firefox ###
 
-Firstly, [Install
+1. If you don't already have it, [Install
 Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) into
 your Firefox browser.
 
-Then, [install Moodle Course
+1. Then, [install Moodle Course
 Searcher](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Moodle_Course_Searcher.user.js).
 
 ### Chrome ###
 
-Just [install Moodle Course
+1. Just [install Moodle Course
 Searcher](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Moodle_Course_Searcher.user.js)
 and you are all set. It doesn't require any special security permissions and
 therefore can run as a native Chrome user script.
