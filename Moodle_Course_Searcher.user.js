@@ -5,7 +5,7 @@
 // @include     https://moodle.cqu.edu.au/*
 // @include     https://moodle-vet.cqu.edu.au/*
 // @include     https://moodle-archive-2014.cqu.edu.au/*
-// @version     0.1.0
+// @version     0.1.1
 // @grant       none
 // ==/UserScript==
 
