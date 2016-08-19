@@ -5,7 +5,7 @@
 // @include     https://moodle.cqu.edu.au/*
 // @include     https://moodle-vet.cqu.edu.au/*
 // @include     https://moodle-archive-2014.cqu.edu.au/*
-// @version     0.1.1
+// @version     0.1.2
 // @grant       none
 // ==/UserScript==
 
@@ -19,8 +19,11 @@ try
 	//Stick it into the Moodle Header - Voila!!
 	console.log('About to insert '+courseSearchHTML) ;
 	document.querySelector("#page-header").insertAdjacentHTML("beforeend",courseSearchHTML) ;
+
 	//Hack for CQU Moodle sites that have a banner image in the header 
-	document.querySelector("img#custombanner").style.zIndex = "-1" ;
+	var banner = document.querySelector("img#custombanner") ;
+	if(banner)
+		banner.style.zIndex = "-1" ;
 }
 catch(err)
 {
