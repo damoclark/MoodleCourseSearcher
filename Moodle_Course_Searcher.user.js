@@ -5,7 +5,7 @@
 // @include     https://moodle.cqu.edu.au/*
 // @include     https://moodle-vet.cqu.edu.au/*
 // @include     https://moodle-archive-2014.cqu.edu.au/*
-// @version     0.1.2
+// @version     0.1.3
 // @grant       none
 // ==/UserScript==
 
@@ -14,7 +14,7 @@ console.log('Running Moodle Course Search Header') ;
 try
 {
 	//Here is the standard Moodle 2.7 Search form HTML from existing pages in Moodle
-	var courseSearchHTML = '<div class="navbutton"> <form method="get" action="https://moodle.cqu.edu.au/course/search.php" id="coursesearchnavbar"><fieldset class="coursesearchbox invisiblefieldset"><label for="navsearchbox">Search courses: </label><input type="text" value="" name="search" size="20" id="navsearchbox"><input type="submit" value="Go"></fieldset></form></div>' ;
+	var courseSearchHTML = '<div class="navbutton"> <form method="get" action="/course/search.php" id="coursesearchnavbar"><fieldset class="coursesearchbox invisiblefieldset"><label for="navsearchbox">Search courses: </label><input type="text" value="" name="search" size="20" id="navsearchbox"><input type="submit" value="Go"></fieldset></form></div>' ;
 	
 	//Stick it into the Moodle Header - Voila!!
 	console.log('About to insert '+courseSearchHTML) ;
