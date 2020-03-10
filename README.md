@@ -7,7 +7,7 @@ page**
 Screenshot](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Moodle_Course_Searcher_Screenshot.png "Moodle Course Searcher Screenshot")
 
 The utility should work for any version of Moodle, but has only been tested on
-Moodle 2.7
+Moodle 3.7
 
 ## Installation Instructions ##
 
@@ -37,45 +37,11 @@ therefore can run as a native Chrome user script.
 
 Moodle Course Searcher is already configured for use at
 [CQUniversity](https://www.cqu.edu.au). This means you can start using it right
-away. If, however you wish to use it on another Moodle site, you will need to
-follow the instructions below.
-
-### Firefox ###
-
-To specify your Moodle website address so Firefox knows when to run this script,
-press Ctrl-Shift-A to access the settings (Cmd-Shift-A for Mac)
-
-Then go to your Greasemonkey Scripts.
-
-![Greasemonkey
-Scripts](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Firefox_Add-ons_Manager.png
-"Access Greasemonkey Scripts")
-
-Next, click on Preferences for Moodle Course Searcher.
-
-![Preferences for Moodle Course Searcher
-](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Greasemonkey_Moodle_Course_Searcher.png "Preferences for Moodle Course Searcher")
-
-Now you specify the address for your Moodle website.
-
-![Specify your moodle website address
-](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Greasemonkey_Included_pages.png "Specify your moodle website address")
-
-Click "Add..." and enter in your Moodle website. Note you need to add an
-asterisk on the end as shown in the image below. This asterisk means run Moodle
-Course Search on any page of your Moodle website.
-
-![Specify your moodle website address
-](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Specify_Moodle_Site.png "Specify your moodle website address")
-
-Now, you can search for any Moodle course site from any Moodle page.
-
-### Chrome ###
-
-TODO
+away. If, however you wish to use it on another Moodle site, you will need to enable the script to run 
+on your Moodle site.
 
 ## Licence ##
-Copyright (c) 2016 Damien Clark<br/>
+Copyright (c) 2016,2020 Damien Clark<br/>
 
 Licenced under the terms of the
 [GPLv3](https://www.gnu.org/licenses/gpl.txt)<br/>
