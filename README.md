@@ -11,7 +11,7 @@ Moodle 3.7
 
 ## Installation Instructions ##
 
-### Firefox ###
+### Mozilla Firefox ###
 
 1. If you don't already have it, [Install
 Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) into
@@ -20,7 +20,7 @@ your Firefox browser.
 1. Then, [install Moodle Course
 Searcher](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Moodle_Course_Searcher.user.js).
 
-### Chrome ###
+### Google Chrome ###
 
 1. If you don't already have it, [install
 Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
@@ -32,6 +32,15 @@ just the easiest way to do it.
 Searcher](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Moodle_Course_Searcher.user.js)
 and you are all set. It doesn't require any special security permissions and
 therefore can run as a native Chrome user script.
+
+### Microsoft Edge ###
+
+1. If you don't already have it, [Install
+Tampermonkey](https://www.tampermonkey.net/?ext=dhdg&browser=edge) into
+your Edge browser.
+
+1. Then, [install Moodle Course
+Searcher](https://raw.githubusercontent.com/damoclark/MoodleCourseSearcher/master/Moodle_Course_Searcher.user.js).
 
 ## Usage ##
 
